@@ -1,0 +1,9 @@
+p = int(input('Qual o primeiro termo da PA?'))
+r = int(input('Qual a razão da PA?'))
+c = int(input('Quantos termos você quer?'))
+m = 0
+while m != c:
+    m += 1
+    if m >= 2:
+        p += r
+    print(p, end=' ')
